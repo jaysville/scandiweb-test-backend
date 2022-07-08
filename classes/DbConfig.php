@@ -7,6 +7,7 @@
         private $_database = 'pXJ85BJKVG';
         private $port = 3306;
         
+        
         protected $connection;
         
         public function __construct()
