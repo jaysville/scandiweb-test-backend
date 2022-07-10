@@ -13,3 +13,6 @@ $result = $crud->getData($query);
 
 
  echo json_encode($result);
+
+
+ 
