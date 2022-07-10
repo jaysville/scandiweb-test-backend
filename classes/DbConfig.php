@@ -5,10 +5,10 @@
 
         
        
-        private $_host = "us-cdbr-east-06.cleardb.net";
-        private $_username = "b14aa5b8700692";
-        private $_password = "197627b0";
-        private $_database = "heroku_4c03aa2bac8d630";
+        private $_host = getenv("HOST");
+        private $_username = getenv("USER");
+        private $_password = getenv("PASS");
+        private $_database = getenv("DATABASE");
 
       
        
