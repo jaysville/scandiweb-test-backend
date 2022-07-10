@@ -3,15 +3,14 @@
     {	
 
 
+        
+       
+        private $_host = "us-cdbr-east-06.cleardb.net";
+        private $_username = "b14aa5b8700692";
+        private $_password = "197627b0";
+        private $_database = "heroku_4c03aa2bac8d630";
 
-        public  $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-        private $_host = $cleardb_url["host"];
-        private $_username = $cleardb_url["user"];
-        private $_password = $cleardb_url["pass"];
-        private $_database = substr($cleardb_url["path"],1);
-
-       public $active_group = 'default';
-       public $query_builder = TRUE;
+      
        
         
         
